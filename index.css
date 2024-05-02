@@ -1,10 +1,39 @@
 .primer-parcial-wrapper {
-    .card-body {
-        display: flex;
-        .card-image {
-            width: 25%;
+    .navbar {
+        width: 100%;
+        height: 10%;
+        background-color: rgb(248 249 250) !important;
+        .title {
+            margin: 0 auto;
         }
     }
+   
+
+    .card-wrapper {
+        padding: 40px;
+
+        .card-body {
+            display: flex;
+            gap: 35px;
+
+            .card-image {
+                max-width: 385px;
+            }
+            .card-items {
+                list-style-type: none;
+                line-height: 50px;
+
+                b {
+                color: #fca312;
+
+                }
+                li {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
     footer {
         position: fixed;
         bottom: 0;
